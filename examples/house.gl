@@ -1,0 +1,13 @@
+# House gutter job: three roof planes, one round gutter size
+rain 100            # design rainfall intensity, mm/h
+fall 1:200          # gutter fall, one unit down per 200 along
+roughness 0.012     # Manning n for the gutter material
+hanger 0.6          # bracket spacing, m
+stock 3.0           # stock length bought, m
+max-spacing 12      # longest run allowed per downspout, m
+limit 0.8           # utilisation above this is TIGHT
+gutter round 125 price=18.50
+downspout 76 capacity=2.0 price=12.00
+plane front 12.0 6.5
+plane rear 10.5 5.0
+plane garage 6.0 3.2
